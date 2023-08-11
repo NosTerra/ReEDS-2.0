@@ -1,11 +1,5 @@
-,Default Value,ref,geo_NREL_adv,geo_NREL_adv2,geo_NREL_v_adv,,,
-ignore,0,0,0,0,0,,,
-geoscen,geo_ATB_2022_moderate,,geo_ATB_2022_advanced,geo_ATB_2022_advanced,geo_ATB_2022_v_adv,,,
-geosupplycurve,ATB_2022,,,TI,,,,
-geodiscov,BAU,,TI,TI,TI,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,  
+,ref,geo_NREL_adv,geo_NREL_adv2,geo_NREL_v_adv
+ignore,0,0,0,0
+geoscen,geo_ATB_2022_moderate,geo_ATB_2022_advanced,geo_ATB_2022_advanced,geo_ATB_2022_v_adv
+geosupplycurve,ATB_2022,,TI,
+geodiscov,BAU,TI,TI,TI
