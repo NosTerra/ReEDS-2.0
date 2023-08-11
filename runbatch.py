@@ -212,6 +212,7 @@ def setupEnvironment(BatchName=False, cases_suffix=False, simult_runs=0, verbose
             continue
         # Check to make sure the switch setting is valid
         for i, val in df_cases[case].iteritems():
+            print('Case iteration: {}, value: {}'.format(i, val))
             ### Split choices by either '; ' or ','
             if choices[i] in ['N/A',None,np.nan]:
                 pass
